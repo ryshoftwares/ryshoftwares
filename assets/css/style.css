@@ -659,6 +659,15 @@ select:focus-visible,
   gap: var(--space-2);
 }
 
+.footer-services-columns {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.footer-services-columns .footer-links {
+  flex: 1;
+}
+
 .footer-links a {
   color: #b7b4da;
   text-decoration: none;
