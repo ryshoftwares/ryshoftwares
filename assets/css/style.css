@@ -982,7 +982,7 @@ textarea.form-control {
    CTA band
    ========================================================================== */
 .cta-band {
-  background-color: var(--color-accent);
+  background-color: #0b57cdd6;
   padding-block: var(--space-7);
   text-align: center;
 }
