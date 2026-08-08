@@ -406,10 +406,11 @@ select:focus-visible,
   justify-content: center;
 }
 
-.slide-media svg {
+.slide-media img {
   width: 100%;
   height: auto;
   max-height: 340px;
+  object-fit: contain;
 }
 
 .slider-controls {

@@ -6,8 +6,8 @@
   "use strict";
 
   /* ---- Mobile navigation toggle ---- */
-  var navToggle = document.queTechnologieselector(".nav-toggle");
-  var mainNav = document.queTechnologieselector(".main-nav");
+  var navToggle = document.querySelector(".nav-toggle");
+  var mainNav = document.querySelector(".main-nav");
 
   if (navToggle && mainNav) {
     navToggle.addEventListener("click", function () {
@@ -19,13 +19,13 @@
   /* ---- Hero slider ----
      Rotation timing is adjustable via the data-interval attribute (ms)
      on the .hero-slider element. Defaults to 6000ms if not set. */
-  var slider = document.queTechnologieselector(".hero-slider");
+  var slider = document.querySelector(".hero-slider");
 
   if (slider) {
-    var slides = Array.prototype.slice.call(slider.queTechnologieselectorAll(".slide"));
-    var dots = Array.prototype.slice.call(slider.queTechnologieselectorAll(".slider-dot"));
-    var prevBtn = slider.queTechnologieselector(".slider-arrow--prev");
-    var nextBtn = slider.queTechnologieselector(".slider-arrow--next");
+    var slides = Array.prototype.slice.call(slider.querySelectorAll(".slide"));
+    var dots = Array.prototype.slice.call(slider.querySelectorAll(".slider-dot"));
+    var prevBtn = slider.querySelector(".slider-arrow--prev");
+    var nextBtn = slider.querySelector(".slider-arrow--next");
     var intervalMs = parseInt(slider.getAttribute("data-interval"), 10) || 6000;
     var current = slides.findIndex(function (s) {
       return s.classList.contains("is-active");
@@ -99,12 +99,12 @@
   }
 
   /* ---- Contact form ---- */
-  var contactForm = document.queTechnologieselector("#contact-form");
+  var contactForm = document.querySelector("#contact-form");
 
   if (contactForm) {
     contactForm.addEventListener("submit", function (event) {
       event.preventDefault();
-      var status = contactForm.queTechnologieselector(".form-status");
+      var status = contactForm.querySelector(".form-status");
       if (status) {
         status.textContent =
           "Thanks for reaching out! This is a demo form — connect it to your email service or backend to receive submissions.";
