@@ -906,6 +906,10 @@ select:focus-visible,
   padding: var(--space-6);
 }
 
+.contact-panel h2 {
+  margin-bottom: 0;
+}
+
 .form-group {
   margin-bottom: var(--space-4);
 }
@@ -918,8 +922,8 @@ select:focus-visible,
   font-size: var(--fs-small);
 }
 
-.form-group .required {
-  color: #b3261e;
+.required {
+  color: #f6180b;
 }
 
 .form-control {
