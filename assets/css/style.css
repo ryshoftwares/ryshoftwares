@@ -866,6 +866,10 @@ select:focus-visible,
   align-items: flex-start;
 }
 
+.contact-info-item--center {
+  align-items: center;
+}
+
 .contact-info-icon {
   width: 52px;
   height: 52px;
