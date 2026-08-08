@@ -814,6 +814,16 @@ select:focus-visible,
   max-height: 260px;
 }
 
+.service-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 40px -20px rgba(33, 28, 77, 0.35);
+}
+
 .service-number {
   color: var(--c-300);
   font-weight: 900;
