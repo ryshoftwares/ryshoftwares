@@ -526,9 +526,10 @@ select:focus-visible,
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 0.9375rem;
+  background-color: var(--bg-soft);
+  padding: 10px;
+  box-sizing: border-box;
+  object-fit: contain;
 }
 
 .tech-badge span {
