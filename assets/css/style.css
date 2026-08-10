@@ -744,6 +744,11 @@ select:focus-visible,
   border-radius: var(--radius-lg, 16px);
 }
 
+.about-media img {
+  max-height: 750px;
+  object-fit: cover;
+}
+
 .dream-cta {
   margin-top: var(--space-5);
   padding-top: var(--space-4);
