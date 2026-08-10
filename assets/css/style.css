@@ -675,7 +675,7 @@ select:focus-visible,
 
 .footer-contact-list a:hover,
 .footer-contact-list a:focus-visible {
-  color: var(--c-300);
+  color: #e1db2a;
 }
 
 .footer-heading {
