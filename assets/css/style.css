@@ -647,8 +647,35 @@ select:focus-visible,
   font-size: var(--fs-small);
 }
 
+.footer-contact-list li svg {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+}
+
+/* The mail glyph's envelope shape fills its viewBox more than the pin/phone
+   icons do, so it reads larger at the same box size — trim it slightly to
+   look visually consistent with the other two. */
+.footer-contact-list li:nth-child(3) svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Smaller mail icon otherwise sits flush with the top of the address/phone
+   icons; center it against its single-line email text instead. */
+.footer-contact-list li:nth-child(3) {
+  align-items: center;
+}
+
 .footer-contact-list a {
   color: #cbc8e6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-contact-list a:hover,
+.footer-contact-list a:focus-visible {
+  color: var(--c-300);
 }
 
 .footer-heading {
