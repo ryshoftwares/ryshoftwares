@@ -98,19 +98,4 @@
     startAutoRotate();
   }
 
-  /* ---- Contact form ---- */
-  var contactForm = document.querySelector("#contact-form");
-
-  if (contactForm) {
-    contactForm.addEventListener("submit", function (event) {
-      event.preventDefault();
-      var status = contactForm.querySelector(".form-status");
-      if (status) {
-        status.textContent =
-          "Thanks for reaching out! This is a demo form — connect it to your email service or backend to receive submissions.";
-        status.classList.add("is-visible");
-      }
-      contactForm.reset();
-    });
-  }
 })();
