@@ -288,6 +288,11 @@ select:focus-visible,
   color: var(--text-dark);
 }
 
+.brand-logo {
+  height: 44px;
+  width: auto;
+}
+
 .brand-mark {
   width: 42px;
   height: 42px;
