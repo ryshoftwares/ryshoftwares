@@ -172,6 +172,14 @@ select:focus-visible,
   padding-bottom: var(--space-4);
 }
 
+#services {
+  padding-block: var(--space-5);
+}
+
+#technologies {
+  padding-block: var(--space-5);
+}
+
 .section-soft {
   background-color: var(--bg-soft);
 }
@@ -192,7 +200,7 @@ select:focus-visible,
 
 .section-header {
   max-width: 720px;
-  margin: 0 auto var(--space-6);
+  margin: 0 auto var(--space-4);
   text-align: center;
 }
 
