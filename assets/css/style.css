@@ -376,7 +376,7 @@ select:focus-visible,
   width: 100%;
   max-width: var(--container-max);
   margin-inline: auto;
-  padding: var(--space-7) var(--space-4);
+  padding: 6px var(--space-4);
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
   gap: var(--space-6);
@@ -414,12 +414,13 @@ select:focus-visible,
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 440px;
 }
 
 .slide-media img {
-  width: 100%;
-  height: auto;
-  max-height: 340px;
+  width: auto;
+  height: 100%;
+  max-width: 100%;
   object-fit: contain;
 }
 
@@ -1140,7 +1141,7 @@ textarea.form-control {
   .about-row.reverse .about-media { order: -1; }
   .slide-inner { grid-template-columns: 1fr; text-align: center; }
   .slide-actions { justify-content: center; }
-  .slide-media { order: -1; }
+  .slide-media { order: -1; height: 280px; }
 }
 
 @media (max-width: 767px) {
