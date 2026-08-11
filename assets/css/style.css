@@ -180,6 +180,10 @@ select:focus-visible,
   padding-block: var(--space-5);
 }
 
+#testimonials {
+  padding-block: var(--space-5);
+}
+
 .section-soft {
   background-color: var(--bg-soft);
 }
