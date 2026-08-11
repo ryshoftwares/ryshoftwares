@@ -1012,11 +1012,12 @@ select:focus-visible,
   background-color: var(--bg-soft);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
-  padding: var(--space-6);
+  padding: var(--space-2);
 }
 
 .contact-panel h2 {
   margin-bottom: 0;
+  font-size: var(--fs-h4);
 }
 
 .form-group {
