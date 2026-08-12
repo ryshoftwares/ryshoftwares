@@ -289,7 +289,7 @@ select:focus-visible,
 }
 
 .brand-logo {
-  height: 44px;
+  height: 50px;
   width: auto;
 }
 
@@ -297,6 +297,12 @@ select:focus-visible,
   width: 42px;
   height: 42px;
   flex-shrink: 0;
+  object-fit: contain;
+}
+
+.footer-brand .brand-mark {
+  width: 180px;
+  height: auto;
 }
 
 .brand-name {
@@ -1131,7 +1137,7 @@ textarea.form-control {
    CTA band
    ========================================================================== */
 .cta-band {
-  background-color: #0b57cdd6;
+  background: linear-gradient(135deg, var(--c-600), var(--c-800));
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -1142,7 +1148,7 @@ textarea.form-control {
 }
 
 .cta-band p {
-  color: #cbc8e6;
+  color: var(--c-100);
   max-width: 640px;
   margin: 0 auto var(--space-5);
 }
