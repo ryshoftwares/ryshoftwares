@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Ryzo Technologies — Global scripts
+   RYZO Technologies — Global scripts
    Handles: mobile nav toggle, hero slider, contact form submission
    ========================================================================== */
 (function () {
