@@ -756,6 +756,28 @@ select:focus-visible,
   justify-content: center;
   color: #ffffff;
   text-decoration: none;
+  transition: transform .2s ease, opacity .2s ease;
+}
+
+.footer-social a:hover,
+.footer-social a:focus-visible {
+  transform: translateY(-3px);
+  opacity: .9;
+}
+
+.footer-social a.social-facebook {
+  background: #1877F2;
+  border-color: #1877F2;
+}
+
+.footer-social a.social-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  border-color: transparent;
+}
+
+.footer-social a.social-linkedin {
+  background: #0A66C2;
+  border-color: #0A66C2;
 }
 
 .footer-bottom {
