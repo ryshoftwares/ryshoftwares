@@ -1151,6 +1151,14 @@ textarea.form-control {
   background-size: cover;
 }
 
+/* Services page hero: decorative background image, services.html only */
+.services-hero {
+  background-image: url("../img/servicesbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .breadcrumb-nav ol {
   list-style: none;
   display: flex;
