@@ -1159,6 +1159,14 @@ textarea.form-control {
   background-size: cover;
 }
 
+/* About page hero: decorative background image, about.html only */
+.about-hero {
+  background-image: url("../img/aboutbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .breadcrumb-nav ol {
   list-style: none;
   display: flex;
