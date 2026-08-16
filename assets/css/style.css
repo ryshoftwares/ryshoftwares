@@ -1281,4 +1281,10 @@ textarea.form-control {
 .legal-content a {
   color: var(--color-primary-dark);
   font-weight: 500;
+  text-decoration: none;
 }
+
+/* .legal-content a:hover,
+.legal-content a:focus-visible {
+  text-decoration: underline;
+} */
