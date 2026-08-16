@@ -1151,9 +1151,11 @@ textarea.form-control {
   background-size: cover;
 }
 
-/* Services page hero: decorative background image, services.html only */
+/* Services page hero: decorative background image, services.html only.
+   A soft purple wash sits over the image since the source graphic runs
+   too pale/washed-out on its own. */
 .services-hero {
-  background-image: url("../img/servicesbg.png");
+  background-image: linear-gradient(rgba(108, 99, 217, 0.22), rgba(108, 99, 217, 0.22)), url("../img/servicesbg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
