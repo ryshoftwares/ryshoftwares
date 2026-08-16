@@ -1212,7 +1212,7 @@ textarea.form-control {
    Legal content (Privacy Policy / Terms & Conditions)
    ========================================================================== */
 .legal-content {
-  max-width: 820px;
+  max-width: 920px;
   margin: 0 auto;
 }
 
@@ -1224,12 +1224,13 @@ textarea.form-control {
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
   padding: var(--space-2) var(--space-4);
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-4);
+
 }
 
 .legal-content h2 {
   font-size: var(--fs-h3);
-  margin-top: var(--space-7);
+  margin-top: var(--space-4);
   margin-bottom: var(--space-3);
 }
 
@@ -1243,7 +1244,7 @@ textarea.form-control {
 }
 
 .legal-content p {
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-3);
 }
 
 .legal-content ul {
