@@ -1319,20 +1319,6 @@ textarea.form-control {
   height: 32px;
 }
 
-@media (max-width: 575.98px) {
-  .whatsapp-float {
-    right: var(--space-3, 1rem);
-    bottom: calc(44px + var(--space-3, 1rem) + 12px);
-    width: 52px;
-    height: 52px;
-  }
-
-  .whatsapp-float svg {
-    width: 28px;
-    height: 28px;
-  }
-}
-
 /* Back-to-top floating button (bottom-most, closest to the corner) */
 .back-to-top {
   position: fixed;
@@ -1374,7 +1360,21 @@ textarea.form-control {
   height: 22px;
 }
 
-@media (max-width: 575.98px) {
+/* Tablet & below: trim the offsets/sizes slightly so the stacked pair
+   clears content and thumb-reach comfortably on touch screens. */
+@media (max-width: 767.98px) {
+  .whatsapp-float {
+    right: var(--space-3, 1rem);
+    bottom: calc(46px + var(--space-3, 1rem) + 12px);
+    width: 46px;
+    height: 46px;
+  }
+
+  .whatsapp-float svg {
+    width: 26px;
+    height: 26px;
+  }
+
   .back-to-top {
     right: var(--space-3, 1rem);
     bottom: var(--space-3, 1rem);
@@ -1388,16 +1388,32 @@ textarea.form-control {
   }
 }
 
-@media (max-width: 575.98px) {
+/* Very small phones: nudge in from the edge a bit further. */
+@media (max-width: 360px) {
+  .whatsapp-float,
   .back-to-top {
-    right: var(--space-3, 1rem);
-    bottom: calc(52px + var(--space-3, 1rem) + 12px);
-    width: 44px;
-    height: 44px;
+    right: var(--space-2, 0.5rem);
+  }
+
+  .whatsapp-float {
+    bottom: calc(42px + var(--space-2, 0.5rem) + 10px);
+    width: 42px;
+    height: 42px;
+  }
+
+  .whatsapp-float svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .back-to-top {
+    bottom: var(--space-2, 0.5rem);
+    width: 40px;
+    height: 40px;
   }
 
   .back-to-top svg {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
   }
 }
