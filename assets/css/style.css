@@ -1143,9 +1143,11 @@ textarea.form-control {
   text-align: center;
 }
 
-/* Contact page hero: decorative background image, contact.html only */
+/* Contact page hero: decorative background image, contact.html only.
+   A soft purple wash sits over the image since the source graphic runs
+   too pale/washed-out on its own. */
 .contact-hero {
-  background-image: url("../img/Contactusbg.png");
+  background-image: linear-gradient(rgba(108, 99, 217, 0.22), rgba(108, 99, 217, 0.22)), url("../img/Contactusbg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1161,9 +1163,11 @@ textarea.form-control {
   background-size: cover;
 }
 
-/* About page hero: decorative background image, about.html only */
+/* About page hero: decorative background image, about.html only.
+   A soft purple wash sits over the image since the source graphic runs
+   too pale/washed-out on its own. */
 .about-hero {
-  background-image: url("../img/aboutbg.png");
+  background-image: linear-gradient(rgba(108, 99, 217, 0.22), rgba(108, 99, 217, 0.22)), url("../img/aboutbg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
