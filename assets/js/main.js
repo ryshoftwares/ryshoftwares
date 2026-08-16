@@ -98,4 +98,21 @@
     startAutoRotate();
   }
 
+  /* ---- Back-to-top button ----
+     Shown once the page is scrolled past 300px; scrolls smoothly to top on click. */
+  var backToTop = document.getElementById("backToTop");
+
+  if (backToTop) {
+    var toggleBackToTop = function () {
+      backToTop.classList.toggle("is-visible", window.scrollY > 300);
+    };
+
+    window.addEventListener("scroll", toggleBackToTop, { passive: true });
+    toggleBackToTop();
+
+    backToTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
 })();

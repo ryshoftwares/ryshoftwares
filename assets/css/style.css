@@ -1288,3 +1288,116 @@ textarea.form-control {
 .legal-content a:focus-visible {
   text-decoration: underline;
 } */
+
+/* WhatsApp floating button (stacked above the back-to-top button) */
+.whatsapp-float {
+  position: fixed;
+  right: var(--space-4, 1.5rem);
+  bottom: calc(52px + var(--space-4, 1.5rem) + 14px);
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #25d366;
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+  transform: scale(1.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.whatsapp-float svg {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 575.98px) {
+  .whatsapp-float {
+    right: var(--space-3, 1rem);
+    bottom: calc(44px + var(--space-3, 1rem) + 12px);
+    width: 52px;
+    height: 52px;
+  }
+
+  .whatsapp-float svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Back-to-top floating button (bottom-most, closest to the corner) */
+.back-to-top {
+  position: fixed;
+  right: var(--space-4, 1.5rem);
+  bottom: var(--space-4, 1.5rem);
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background-color: #eb4d4b;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, visibility 0.2s;
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover,
+.back-to-top:focus-visible {
+  transform: scale(1.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.back-to-top svg {
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 575.98px) {
+  .back-to-top {
+    right: var(--space-3, 1rem);
+    bottom: var(--space-3, 1rem);
+    width: 44px;
+    height: 44px;
+  }
+
+  .back-to-top svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .back-to-top {
+    right: var(--space-3, 1rem);
+    bottom: calc(52px + var(--space-3, 1rem) + 12px);
+    width: 44px;
+    height: 44px;
+  }
+
+  .back-to-top svg {
+    width: 20px;
+    height: 20px;
+  }
+}
