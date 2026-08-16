@@ -1143,6 +1143,14 @@ textarea.form-control {
   text-align: center;
 }
 
+/* Contact page hero: decorative background image, contact.html only */
+.contact-hero {
+  background-image: url("../img/Contactusbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .breadcrumb-nav ol {
   list-style: none;
   display: flex;
