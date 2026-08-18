@@ -1323,7 +1323,7 @@ textarea.form-control {
 .whatsapp-float {
   position: fixed;
   right: var(--space-4, 1.5rem);
-  bottom: calc(52px + var(--space-4, 1.5rem) + 14px);
+  bottom: 82px;
   z-index: 1500;
   display: flex;
   align-items: center;
@@ -1353,7 +1353,7 @@ textarea.form-control {
 .back-to-top {
   position: fixed;
   right: var(--space-4, 1.5rem);
-  bottom: var(--space-4, 1.5rem);
+  bottom: 146px;
   z-index: 1500;
   display: flex;
   align-items: center;
@@ -1395,7 +1395,7 @@ textarea.form-control {
 @media (max-width: 767.98px) {
   .whatsapp-float {
     right: var(--space-3, 1rem);
-    bottom: calc(46px + var(--space-3, 1rem) + 12px);
+    bottom: 90px;
     width: 46px;
     height: 46px;
   }
@@ -1407,7 +1407,7 @@ textarea.form-control {
 
   .back-to-top {
     right: var(--space-3, 1rem);
-    bottom: var(--space-3, 1rem);
+    bottom: 146px;
     width: 44px;
     height: 44px;
   }
@@ -1420,13 +1420,13 @@ textarea.form-control {
 
 /* Very small phones: nudge in from the edge a bit further. */
 @media (max-width: 360px) {
-  .whatsapp-float,
   .back-to-top {
     right: var(--space-2, 0.5rem);
   }
 
   .whatsapp-float {
-    bottom: calc(42px + var(--space-2, 0.5rem) + 10px);
+    right: var(--space-2, 0.5rem);
+    bottom: 84px;
     width: 42px;
     height: 42px;
   }
@@ -1437,7 +1437,7 @@ textarea.form-control {
   }
 
   .back-to-top {
-    bottom: var(--space-2, 0.5rem);
+    bottom: 134px;
     width: 40px;
     height: 40px;
   }
