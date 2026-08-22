@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ryzotechnologies.com/sitemap.xml
+Sitemap: https://ryzotechnologies.com/sitemap.xml

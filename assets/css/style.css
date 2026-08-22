@@ -420,8 +420,11 @@ select:focus-visible,
   margin-bottom: var(--space-4);
 }
 
-.slide-text h1 {
+.slide-text h1,
+.slide-text h2 {
   margin-bottom: var(--space-4);
+  font-size: var(--fs-h1);
+  font-weight: 900;
 }
 
 .slide-text p {
@@ -628,6 +631,10 @@ select:focus-visible,
 .testimonial-person span {
   color: var(--text-muted);
   font-size: var(--fs-small);
+}
+
+.testimonial-location {
+  display: block;
 }
 
 /* ==========================================================================
