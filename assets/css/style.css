@@ -986,7 +986,8 @@ select:focus-visible,
   margin-bottom: var(--space-2);
 }
 
-.service-content ul.checklist {
+.service-content ul.checklist,
+ul.checklist {
   list-style: none;
   padding: 0;
   margin: var(--space-4) 0 0;
@@ -995,7 +996,8 @@ select:focus-visible,
   gap: var(--space-2);
 }
 
-.service-content ul.checklist li {
+.service-content ul.checklist li,
+ul.checklist li {
   display: flex;
   gap: var(--space-2);
   align-items: flex-start;
@@ -1003,7 +1005,8 @@ select:focus-visible,
   color: var(--text-body);
 }
 
-.service-content ul.checklist svg {
+.service-content ul.checklist svg,
+ul.checklist svg {
   width: 18px;
   height: 18px;
   stroke: var(--color-primary-dark);
